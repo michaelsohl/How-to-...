@@ -11,6 +11,8 @@ Start Xcode with your project that could be called "App" :stuck_out_tongue_winki
 ```
 open App/ios/App.xcodeproj
 ```
+
+[Screenshot of XCode environment](../images/img1)
 In Xcode->click on root project in left panel
 
 Choose team under Signing, and Add Account. Choose to download certificate linked to your apple-id. The credentials used for your Apple Developer Account. Remember to set the destination to your device. Furthermore, the computer and iphone should be connected to the same wifi if host in RCTWebSocketExecutor.m should be localhost. Otherwise, host should be set to the IP-address to the computer. If the computer is connected to a secure network (router) and does not display a IP-address that isn't publicly visible, try and use [ngrok](http://blog.theodo.fr/2017/11/preact-progressive-web-app-webpack-material-design-web-apis/#Check_out_the_hot_reload_on_your_phone_117) under the sub-title "Check out the hot reload on your phone!" to make localhost:8081 accessible.
