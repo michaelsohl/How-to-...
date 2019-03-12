@@ -59,6 +59,13 @@ Then run:
 sudo mongod --pathdb /data/db
 ```
 
+#### Create Database
+You are now in mongodb shell
+Enter:
+```
+use NAME_OF_DATABASE
+```
+
 
 
 
