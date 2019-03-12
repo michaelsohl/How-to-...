@@ -1,4 +1,4 @@
-## Setup mongodb for Linux 14.0
+## Setup mongodb for Linux 14.04
 In this tutorial mongodb is installed, set up, and launched in simple example.
 
 source: <href> https://www.howtoforge.com/tutorial/install-mongodb-on-ubuntu-14.04/ </href>
