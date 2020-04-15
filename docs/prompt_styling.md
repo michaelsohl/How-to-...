@@ -1,11 +1,11 @@
-## Setup Iterm2 and prompt styling 
+## Prompt styling on my MAC
 
-|Checklist|
-|:---|
-|Iterm2|
-|Oh-my-zsh|
-|Powerlevel9K|
-|Add fonts|
+
+- Iterm2
+- Oh-my-zsh
+- Powerlevel9K
+- Add font
+- Vim config
 
 ### Iterm2 
 Install from homebrew's package manager
@@ -14,10 +14,11 @@ brew install iterm2
 ```
 
 ### Oh-my-zsh
+First install
 ```
 sh -c "$(curl -fsSL https://raw.githubusercontent.com/robbyrussell/oh-my-zsh/master/tools/install.sh)"
 ```
-Add git plugin. Start out by getting git. Use homebrew.
+Add git plugin. Start out by getting git.
 ```
 brew install git
 ```
@@ -41,3 +42,7 @@ ZSH_THEME="powerlevel9k/powerlevel9k"
 ```
 
 ### Add fonts
+
+### Vim config
+
+How to setup [VIM with oh-my-zsh](https://vimawesome.com/plugin/oh-my-zsh)
