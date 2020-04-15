@@ -55,9 +55,10 @@ Manage versions
 asdf global <name> <version> [<version>...]
 asdf local <name> <version> [<version>...]
 ```
-global writes the version to $HOME/.tool-versions.
-local writes the version to $PWD/.tool-versions, creating it if needed.
+global - writes the version to $HOME/.tool-versions.
+local - writes the version to $PWD/.tool-versions, creating it if needed.
 
-[Example with .tool-version](../images/screen_shoot_20200414_214135.png)
+
+<img src="../images/screen_shoot_20200414_214135.png" height="600" width="600" >
 
 
