@@ -42,12 +42,13 @@ ZSH_THEME="powerlevel9k/powerlevel9k"
 ```
 
 ### Add fonts
-Download a font (.otf file extension) and install on Mac (dubbel click on file to install) 
-The file i chose is called Awesome Font 5 (../images/font_awesome_5.otf)
-This command shows what icons are working:
+Download a font (.otf file extension) and install on Mac (dubble-click on file to install) 
+The file i chose is called Awesome Font 5 (../images/font_awesome_5.otf) 
+This command shows what icons are working: 
 ```
 get_icon_names
 ```
+Run this command again at the end to confirm that the icons are working
 iterm2 -> preferences
 select checkbox "Use  different font from non-ACSII text"
 select font
