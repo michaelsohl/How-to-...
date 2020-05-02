@@ -42,6 +42,16 @@ ZSH_THEME="powerlevel9k/powerlevel9k"
 ```
 
 ### Add fonts
+Download a font (.otf file extension) and install on Mac (dubbel click on file to install) 
+The file i chose is called Awesome Font 5 (../images/font_awesome_5.otf)
+This command shows what icons are working:
+```
+get_icon_names
+```
+iterm2 -> preferences
+select checkbox "Use  different font from non-ACSII text"
+select font
+<img src="../images/Screenshot_2020-05-02_21.48.13.png" >
 
 ### Vim config
 
