@@ -15,14 +15,15 @@ Try the first command again.
 Open:
 ```
 sudo nano /usr/local/opt/jenkins-lts/homebrew.mxcl.jenkins-lts.plist
-
+```
 Change
 ```
 <string>--httpListenAddress=127.0.0.1</string>
+```
 to
 ```
 <string>--httpListenAddress=0.0.0.0</string>
-
+```
 Run 
 ```
 brew services start jenkins-lts
@@ -31,6 +32,6 @@ brew services start jenkins-lts
 
 
 
-References:
-https://www.jenkins.io/download/lts/macos/
-https://www.macminivault.com/installing-jenkins-on-macos/
+References:  
+https://www.jenkins.io/download/lts/macos/. 
+https://www.macminivault.com/installing-jenkins-on-macos/. 
