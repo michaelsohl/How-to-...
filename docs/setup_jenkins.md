@@ -22,9 +22,11 @@ Change
 to
 ```
 <string>--httpListenAddress=0.0.0.0</string>
+
 Run 
 ```
 brew services start jenkins-lts
+```
 => 👍 
 
 
