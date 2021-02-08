@@ -2,7 +2,7 @@
 
 asdf is a kind of version control for frameworks. For example nodejs.
 
-The thought is that asdf will give me the flexibility to control what version of nodejs I use in each of my projects. Normally nodejs would be set to a global version on my computer when using Homebrew to install it.\
+The thought is that asdf will give me the flexibility to control what version of nodejs I use in each of my projects. Normally nodejs would be set to a global version on my computer when using Homebrew to install it.
 
 If I would use version nodejs@X in project A and projectB, having nodejs
 installed globally, I wouldn't be able to choose nodejs@Y for project B and have project A stay on nodejs@Y. asdf should enable this choice.
@@ -33,7 +33,7 @@ Install these prerequisites
 ```
 brew install coreutils && brew install gpg
 ```
-coreutils - basic file, shell and text manipulation utilities of the GNU operating system\
+coreutils - basic file, shell and text manipulation utilities of the GNU operating system
 gpg - the GNU Privacy Guard allows you to encrypt and sign your data and communications. Provides ssh.
 
 
@@ -57,11 +57,12 @@ asdf install <name> <version>
 asdf global <name> <version> [<version>...]
 asdf local <name> <version> [<version>...]
 ```
-global - writes the version to $HOME/.tool-versions.\
+global - writes the version to $HOME/.tool-versions.
 local - writes the version to $PWD/.tool-versions, creating it if needed.
 
 ## Example
 Nodejs 13.12.0 and 12.16.0 was first installed.
+
 <img src="../images/screen_shoot_20200414_214135.png" height="600" width="600" >
 
 
